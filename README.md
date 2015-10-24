@@ -12,6 +12,9 @@ If you are on windows - you might need to run the `lxml` installer[from this lin
 
 If that doesn't work for you - Google your error message.
 
+Windows:
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml
+
 
 ## Get CalDining Menu Data
 
