@@ -1,0 +1,15 @@
+Ideas for what else to do:
+allow ratings for each food thing, give an overall rating to each foodplace.
+List foods by meal, or by rating given to them.
+Calendar option?
+Make it look prettier in general.
+Do some preview of each place on the home page.
+calorie count on the other side?
+TODO:
+background image on header
+
+
+what I want to do:
+review page has a form. This form takes in the food eaten, hall name, and a review from 0-10. The standard review before update should be 0 for all food.
+
+gotta make sure that when same food is added, that food is not regiven a review of 0. 

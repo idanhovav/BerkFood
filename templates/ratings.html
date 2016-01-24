@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+	<p>Give a review!</p>
+	<form>
+		<input type='radio' name='hall' value='clarkkerr' checked> Clark Kerr
+		<br>
+		<input type='radio' name='hall' value='foothill' checked> Foothill
+		<br>
+		<input type='radio' name='hall' value='cafe3' checked> Cafe 3
+		<br>
+		<input type='radio' name='hall' value='crossroads' checked> Crossroads
+		<br>
+		<input type='submit'>
+	</form>
+
+	<form action='/review' method = "POST">
+	<!--why not just make this part buttons too? Check which food you ate off a list of food that came from that day! -->
+    Food:
+    <input name="entry" type="text" /> 
+  	<!-- gotta make this part buttons as options.-->
+    Dining Hall:
+    <input name="hall" type="radio"/> 
+    Rating:
+    <input name="rating" type="number"/> 
+    <input type="submit" />
+  </form>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+	<h1> What's Cooking At {{ name }}:</h1>
+
+	<table class='table table-hover'>
+		<tr>
+			<th>Item</th>
+		</tr>
+	{% for item in items %}
+		<tr> <td> {{ item }} </td> <tr>
+
+	{% endfor %}
+
+	</table>
+{% endblock %}

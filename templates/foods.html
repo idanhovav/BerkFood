@@ -1,0 +1,14 @@
+{%extends "layout.html" %}
+{% block content %}
+	<h1> All Food Entries. </h1>
+	<table class='table table-hover'>
+		<tr>
+			<th>Foods</th>
+		</tr>
+	{% for entry in entries %}
+		<tr> <td> {{ entry }} </td> <tr>
+
+	{% endfor %}
+	</table>
+
+{% endblock %}
